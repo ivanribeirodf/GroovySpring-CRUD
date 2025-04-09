@@ -61,3 +61,35 @@ spring.jpa.hibernate.ddl-auto=update
 ## 📚 Swagger (Documentação)
 
 - [Documentação](http://localhost:8080/swagger-ui/index.html)
+![image](https://github.com/user-attachments/assets/cd37aae7-1b3c-4575-bf2b-35c16944225f)
+
+## 👤 Exemplo de payload (JSON)
+```
+{
+  "nome": "Joana Silva",
+  "idade": 28,
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "pais": "Brasil",
+  "cep": "01000-000",
+  "email": "joana@email.com",
+  "cargo": "ALUNO"
+}
+
+```
+
+## 📌 Cargos disponíveis
+- ALUNO
+- PROFESSOR
+- DIRETOR
+- MOTORISTA
+- COZINHEIRO
+
+##🧠 Aprendizados e objetivos
+> Este projeto foi feito com foco em aprendizado de:
+
+- Backend com Spring Boot + Groovy
+- Criação de API RESTful
+- Padrões de validação e boas práticas
+- Integração com banco de dados (PostgreSQL)
+- Uso de ferramentas modernas de documentação e devtools  
