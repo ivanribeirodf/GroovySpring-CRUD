@@ -2,6 +2,8 @@ package com.exemplo.usuario.model
 
 import jakarta.persistence.*
 import jakarta.validation.constraints.*
+import org.hibernate.annotations.CreationTimestamp
+import org.hibernate.annotations.UpdateTimestamp
 
 @Entity
 class Usuario {
@@ -35,4 +37,12 @@ class Usuario {
     @NotNull(message = "Cargo é obrigatório!")
     @Enumerated(EnumType.STRING)
     Cargo cargo
+
+    @CreationTimestamp
+    @Temporal(TemporalType.TIMESTAMP)
+    Date createdAt
+
+    @UpdateTimestamp
+    @Temporal(TemporalType.TIMESTAMP)
+    Date updatedAt
 }

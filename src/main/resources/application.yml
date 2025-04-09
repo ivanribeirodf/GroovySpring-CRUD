@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/seubanco
-    username: postgres
-    password: pix2000
+    username: qwcontrol
+    password: qwcontrol
   jpa:
     hibernate:
       ddl-auto: update
