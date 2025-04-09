@@ -1,4 +1,4 @@
-# 🧑‍💻 Sistema de Cadastro de Usuários - Spring Boot + Groovy
+## 🧑‍💻 Sistema de Cadastro de Usuários - Spring Boot + Groovy
 
 Este projeto é uma API RESTful desenvolvida com **Spring Boot**, **Groovy** e **PostgreSQL**, que permite o cadastro e gerenciamento de usuários com validações, documentação Swagger, tratamento de erros e mais!
 
