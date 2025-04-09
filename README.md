@@ -45,7 +45,7 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/usuario_db
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
-
+```
 ---
 
 ## 🧪 Rodando o projeto
