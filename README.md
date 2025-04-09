@@ -86,7 +86,7 @@ spring.jpa.hibernate.ddl-auto=update
 - MOTORISTA
 - COZINHEIRO
 
-##🧠 Aprendizados e objetivos
+## 🧠 Aprendizados e objetivos
 
 > Este projeto foi feito com foco em aprendizado de:
 
