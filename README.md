@@ -2,7 +2,7 @@
 
 Este projeto é uma API RESTful desenvolvida com **Spring Boot**, **Groovy** e **PostgreSQL**, que permite o cadastro e gerenciamento de usuários com validações, documentação Swagger, tratamento de erros e mais!
 
----
+
 
 ## 🚀 Funcionalidades
 
@@ -15,7 +15,7 @@ Este projeto é uma API RESTful desenvolvida com **Spring Boot**, **Groovy** e *
 - ✅ Documentação com Swagger
 - ✅ Tratamento elegante de erros
 
----
+
 
 ## 📦 Tecnologias utilizadas
 
@@ -26,7 +26,6 @@ Este projeto é uma API RESTful desenvolvida com **Spring Boot**, **Groovy** e *
 - [Swagger / Springdoc OpenAPI](https://springdoc.org/)
 - [Hibernate Validator (Jakarta Bean Validation)](https://jakarta.ee/specifications/bean-validation/)
 
----
 
 ## 🔧 Pré-requisitos
 
@@ -34,7 +33,7 @@ Este projeto é uma API RESTful desenvolvida com **Spring Boot**, **Groovy** e *
 - PostgreSQL rodando localmente
 - Gradle instalado (ou use o wrapper `./gradlew`)
 
----
+
 
 ## 💾 Configuração do banco de dados
 
@@ -46,13 +45,11 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 ```
----
+
 
 ## 🧪 Rodando o projeto
 
 - ./gradlew bootRun
-
----
 
 ## 📬 Endpoints principais
 
