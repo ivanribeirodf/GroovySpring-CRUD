@@ -79,6 +79,7 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 
 ## 📌 Cargos disponíveis
+
 - ALUNO
 - PROFESSOR
 - DIRETOR
@@ -86,6 +87,7 @@ spring.jpa.hibernate.ddl-auto=update
 - COZINHEIRO
 
 ##🧠 Aprendizados e objetivos
+
 > Este projeto foi feito com foco em aprendizado de:
 
 - Backend com Spring Boot + Groovy
