@@ -45,3 +45,22 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/usuario_db
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
+
+---
+
+## 🧪 Rodando o projeto
+
+- ./gradlew bootRun
+
+---
+
+## 📬 Endpoints principais
+
+- GET      /usuarios	Lista todos os usuários
+- POST     /usuarios	Cria um novo usuário
+- PUT      /usuarios/{id}	Atualiza usuário
+- DELETE   /usuarios/{id}	Remove usuário
+
+## 📚 Swagger (Documentação)
+
+- [Documentação](http://localhost:8080/swagger-ui/index.html)
